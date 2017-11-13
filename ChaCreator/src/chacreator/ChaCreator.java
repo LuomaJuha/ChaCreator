@@ -35,12 +35,14 @@ public class ChaCreator {
             Print("header");
             
             System.out.println("Please select what you want to do");
-            input = lineReader.next();
+            input = args[0];
             
             switch(input){
                 case "exit":
                     current = EnumHandler.state.exit;
                     Print("exit");
+                    break;
+                case "create":
                     break;
                 default:
                     break;
