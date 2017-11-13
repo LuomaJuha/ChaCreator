@@ -27,7 +27,7 @@ public class ChaCreator {
         State current = State.idle;
         
         while(current != State.exit){
-            
+            System.out.println("");
         }
     }
     
